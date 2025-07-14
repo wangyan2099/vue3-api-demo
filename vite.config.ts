@@ -5,6 +5,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vue3-api-demo/', // 仓库名，前后都要有斜杠
   plugins: [
     vue({
       script: {
